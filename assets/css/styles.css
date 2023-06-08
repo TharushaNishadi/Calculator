@@ -1,16 +1,28 @@
 #calculator{
-    width: 200px;
+    width: 500px;
     margin: auto;
+    
+    
+    
    }
    #display{
-       width: 96%;
+       width: 98.5%;
        margin-bottom: 10px;
+       background-color: rgb(224, 236, 194);
+       font-size: 100%;
+       
    }
    .btns{
        display: flex;
        flex-wrap: wrap;
        width: 100%;
+       
+       
    }
    .btn{
-       width: 25%;
+       width: 20%;
+       color: #3600fa;
+       background-color: rgb(224, 236, 194);
+       font-size: 150%;
+       display: inline-block;
    }
